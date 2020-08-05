@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+li{
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+form input{
+	border-radius: 50px;
+	height: 35px;
+	width: 40%;
+	margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -30%)
+}
+
+img{
+	max-width: 220px;
+	width: 220px;
+	height: 100%;
+	border-radius: 35px;
+}
+
+.quate{
+	text-align: center;
+    color: white;
+    font-family: BankGothic Md BT;
+    font-size: 45px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -20%)
+}
+
+.nav-hedding{
+	padding-top: 7px;
+	padding-left: 33px;
+	font-size: 65px;
+	color: #f6c90e;
+	padding-bottom: 0px;
+	font-family: BankGothic Md BT;
+
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.navbar {
+  	justify-content: flex-end;
+}
+
+.fonte-size{
+	font-size: 20px;
+}
+
+.bg-img{
+	height: 350px;
+	width: 100%;
+	background-image: url(yancy-min-EzSyFRfNP_c-unsplash.jpg);
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+ 	background-size: 100% 144%;
+}
+
+.container {
+  position: relative;
+  max-width: 220px; /* Maximum width */
+  
+
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background-color: #303841;
+  color: #f6c90e; /* Grey text */
+  height: 50px;
+  padding-left: 7px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  width: 100%; /* Full width */
+  padding-left: 12px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+nav ul li {
+    border-radius: 10% 10% 10% 10%;
+    padding: 10px;
+    font-weight: 600;
+  }
+
+nav ul li:hover{
+    background: rgba(255,255,205, 0.402);
+    transition: all .3s;
+    padding: 10px;
+  }
+ 
+/*.active{
+    background: rgba(255,255,255, 0.402); 
+    color: #F0E68C;
+    border-radius: 10% 10% 10% 10%;
+    padding: 10px;
+    transition: all .3s;
+  }*/
+
+
+@font-face {font-family: "BankGothic Md BT"; src: url("//db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.eot"); src: url("//db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.woff") format("woff"), url("//db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.svg#BankGothic Md BT") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/adfd298e421945768d7bf13da3ee8a45?family=BankGothic+Md+BT);
